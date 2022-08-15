@@ -1,0 +1,28 @@
+{
+  "firstOfAll": "First of all",
+  "youCanAdd" : "You can add many friends to your order. \nYou don't need to calculate the price for \neach friend — they’ll get a notification \njwith a payment screen",
+  "switchFriends" : "Switch friends",
+  "youCanSwitch": "You can switch between friends by the \nbutton “Next person” on the tabbar.  Also \nyou can use slide on the profile photo icon \nto helps you to navigate.",
+   "cartEditing" : "Cart editing",
+   "ifYouNeed" : "If you need to edit anyone choices, just \ngo to the Cart screen. If you wish, you can \npay for your frends. For this option, you \nneed to click the “At my expense” button. ",
+  "howToUseTheApp" : "How to use the app",
+  "kudrat" : "Kudrat",
+  "jelenMalisheva" : "Jelen\nMalisheva",
+  "ivanGermanov" : "Ivan\nGermanov",
+  "annaGettax" : "Anna\nGettax",
+  "anedrtes" : "AnedrTes",
+  "vick" : "Vick",
+  "igor" : "Igor",
+  "anna" : "Anna",
+  "checkOut" : "Check out",
+  "nextPerson" : "Next person",
+  "myOrder" : "My order",
+  "vegetarianCheese" : "Vegetarian Cheese",
+  "kate" : "Kate",
+  "sausages" : "Sausages",
+  "addMore" : "Add More",
+  "atMyExpense" : "At my expense",
+  "next" : "Next",
+  "letMeTry" : " let me try!"
+
+}

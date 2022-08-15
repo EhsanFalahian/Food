@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Food/node_modules/@react-navigation/core/src/NavigationBuilderContext.tsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Food/node_modules/@react-navigation/core/src/NavigationHelpersContext.tsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Food/node_modules/@react-navigation/core/src/SceneView.tsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Food/node_modules/@react-navigation/core/src/useSyncState.tsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Food/node_modules/react-native/index.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Food/package-lock.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/app/App.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/app/assets/translations/en/common.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/app/assets/translations/en/index.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/app/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/core/components/TopContainer/TopContainer.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/core/config/i18n.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/core/styles/palette.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/core/styles/theme/defaultTheme.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/core/types/decleration/style.d.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/features/auth/navigator/AuthNavigator.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/features/auth/screens/onboarding/Onboarding.tsx" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ceya56V7gBs8bPWOE3gUWiXyx4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/FriendlyFood/Food/android/app/src/main/assets/fonts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;E:\\FriendlyFood\\Food\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\FriendlyFood\\Food\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\FriendlyFood\Food\android\app\src\main\assets\fonts" />
+      <recent name="E:\FriendlyFood\Food\android\app\src\main\assets\ss" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\FriendlyFood\Food\src\features\guid\component\useThree" />
+      <recent name="E:\FriendlyFood\Food\src\features\guid\component\useTwo" />
+      <recent name="E:\FriendlyFood\Food\src\features\guid\component\useOne" />
+      <recent name="E:\FriendlyFood\Food\android\app\src\main\assets\fonts" />
+      <recent name="E:\FriendlyFood\Food\src\core\styles" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="" />
+      <created>1659177404740</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659177404740</updated>
+      <workItem from="1659177405976" duration="2285000" />
+      <workItem from="1659208705808" duration="1184000" />
+      <workItem from="1659245264226" duration="13692000" />
+      <workItem from="1659332450235" duration="8534000" />
+      <workItem from="1659342879244" duration="4568000" />
+      <workItem from="1659357892698" duration="4695000" />
+      <workItem from="1659379703601" duration="2001000" />
+      <workItem from="1659419780237" duration="1167000" />
+      <workItem from="1659423409860" duration="19000" />
+      <workItem from="1659423513867" duration="11713000" />
+      <workItem from="1659507179708" duration="8388000" />
+      <workItem from="1659589238985" duration="16186000" />
+      <workItem from="1659724871175" duration="2291000" />
+      <workItem from="1659727906410" duration="2025000" />
+      <workItem from="1659765479604" duration="15981000" />
+      <workItem from="1659855848745" duration="6821000" />
+      <workItem from="1659940568191" duration="14209000" />
+      <workItem from="1660032835418" duration="761000" />
+      <workItem from="1660033726591" duration="10152000" />
+      <workItem from="1660070292523" duration="2141000" />
+      <workItem from="1660112067082" duration="14569000" />
+      <workItem from="1660160867258" duration="602000" />
+      <workItem from="1660197207825" duration="2756000" />
+      <workItem from="1660288124398" duration="8157000" />
+      <workItem from="1660372327252" duration="9910000" />
+      <workItem from="1660457854698" duration="13825000" />
+      <workItem from="1660496312867" duration="5620000" />
+      <workItem from="1660542254593" duration="11205000" />
+      <workItem from="1660585908329" duration="458000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Food/src/features/auth/screens/Login.tsx</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
