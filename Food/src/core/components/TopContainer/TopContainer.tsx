@@ -8,12 +8,14 @@ import {useNavigation} from '@react-navigation/native';
 
 export type Props = {
   isGoBack?: boolean;
+  background?: string;
   isLoading?: boolean;
   title?: string;
   children: React.ReactNode;
 };
 const TopContainer: FunctionComponent<Props> = ({
   isGoBack = false,
+  background,
   children,
   isLoading = false,
   title,
@@ -23,7 +25,7 @@ const TopContainer: FunctionComponent<Props> = ({
   const {goBack} = useNavigation();
 
   return (
-    <Container flex={1} backgroundColor={'white'}>
+    <Container flex={1} backgroundColor={background ? background : 'white'}>
       <Container flexDirection={'row'} alignItems={'center'} px={3} py={3}>
         {isGoBack && (
           <UnStyledButton

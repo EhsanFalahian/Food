@@ -14,7 +14,7 @@ export type ButtonProps = Omit<UnStyledButtonProps, 'borderRadius'> & {
   iconRight?: string;
   iconLeft?: string;
   color?: keyof Palette | string;
-  type?: 'background' | 'border' | 'title' | 'textSecondary';
+  type?: 'background' | 'border' | 'title' | 'textSecondary' | 'white';
   translate?: boolean;
   borderRadius?: number | string;
   opacityBackground?: number;

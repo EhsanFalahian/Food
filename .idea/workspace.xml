@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="" />
+    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/app/assets/translations/en/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/assets/translations/en/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/core/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/core/components/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/core/components/Button/style.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/core/components/Button/style.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/core/components/TopContainer/TopContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/core/components/TopContainer/TopContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/auth/navigator/AuthNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/auth/navigator/AuthNavigator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/auth/navigator/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/auth/navigator/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/auth/screens/OtpScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/auth/screens/OtpScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/guid/screen/HowUseApp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/guid/screen/HowUseApp.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,13 +21,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="tsconfig.json" />
         <option value="TypeScript JSX File" />
+        <option value="tsconfig.json" />
         <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -114,7 +130,10 @@
       <workItem from="1660457854698" duration="13825000" />
       <workItem from="1660496312867" duration="5620000" />
       <workItem from="1660542254593" duration="11205000" />
-      <workItem from="1660585908329" duration="458000" />
+      <workItem from="1660585908329" duration="1696000" />
+      <workItem from="1660631971269" duration="12016000" />
+      <workItem from="1660668808994" duration="3991000" />
+      <workItem from="1660715857387" duration="1849000" />
     </task>
     <servers />
   </component>
@@ -126,7 +145,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="share" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

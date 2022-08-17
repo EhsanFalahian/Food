@@ -6,7 +6,7 @@ import {convertHexToRGBA} from '../../styles/color';
 export const StyeldButton = styled(UnStyledButton)<{
   borderRadius?: number | string;
   opacityBackground?: number;
-  type?: 'background' | 'border' | 'title' | 'textSecondary';
+  type?: 'background' | 'border' | 'title' | 'textSecondary' | 'white';
   transparent?: boolean;
 }>`
   padding: 15px;

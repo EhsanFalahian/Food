@@ -13,11 +13,18 @@ import {Dimensions, ScrollView} from 'react-native';
 import SkipButton from 'features/guid/component/SkipButton';
 import NextButton from 'features/guid/component/NextButton';
 import {useTheme} from 'styled-components';
+import {useNavigation} from '@react-navigation/native';
+import {NativeStackNavigationProp} from 'react-native-screens/native-stack';
+import {AppNavigatorParams} from '../../../app/navigator/AppNavigator';
+import {AppRoutes} from '../../../app/navigator/routes';
 
 const {width} = Dimensions.get('screen');
 
 const HowUseApp = (): JSX.Element => {
   const {palette} = useTheme();
+
+  const {navigate} =
+    useNavigation<NativeStackNavigationProp<AppNavigatorParams>>();
   const translateX = useSharedValue(0);
   const scrollHandler = useAnimatedScrollHandler({
     onScroll: event => {
@@ -73,7 +80,7 @@ const HowUseApp = (): JSX.Element => {
           translateX={translateX}
           activeIndex={activeIndex}
           next={() => {
-            console.log('ddfd');
+            navigate(AppRoutes.ADDFRIEND);
           }}
         />
       </Container>
