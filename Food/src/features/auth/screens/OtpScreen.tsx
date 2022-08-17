@@ -12,6 +12,7 @@ import {useNavigation} from '@react-navigation/native';
 import {NativeStackNavigationProp} from 'react-native-screens/native-stack';
 import {AuthNavigatorParams} from '@auth/navigator/AuthNavigator';
 import {AuthRoutes} from '@auth/navigator/routes';
+import {AppRoutes} from '../../../app/navigator/routes';
 
 const OtpScreen = (): JSX.Element => {
   const {palette} = useTheme();
@@ -77,7 +78,7 @@ const OtpScreen = (): JSX.Element => {
                 dispatch(
                   CommonActions.reset({
                     index: 0,
-                    routes: [{name: AuthRoutes.HOWUSE}],
+                    routes: [{name: AppRoutes.HOWUSE}],
                   }),
                 )
               }

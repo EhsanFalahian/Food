@@ -14,6 +14,8 @@ import UseOne from '../features/guid/component/useOne/UseOne';
 import UseTwo from '../features/guid/component/useTwo/UseTwo';
 import UseThree from '../features/guid/component/useThree/UseThree';
 import HowUseApp from '../features/guid/screen/HowUseApp';
+import AddFriend from '../features/addFriend/screen/AddFriend';
+import AppNavigator from './navigator';
 
 const App = () => {
   return (
@@ -21,7 +23,9 @@ const App = () => {
       <ThemeProvider theme={defaultTheme}>
         <NavigationContainer>
           <SafeAreaView style={{flex: 1}}>
-            <AuthNavigator />
+            <AppNavigator />
+            {/*<AuthNavigator />*/}
+            {/*<AddFriend />*/}
             {/*<HowUseApp />*/}
           </SafeAreaView>
         </NavigationContainer>
