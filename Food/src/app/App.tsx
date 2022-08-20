@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import * as React from 'react';
 import {I18nextProvider} from 'react-i18next';
 import i18n from '../core/config/i18n';

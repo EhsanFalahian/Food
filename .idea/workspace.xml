@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="">
+    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="feat :add BottomSheet">
+      <change afterPath="$PROJECT_DIR$/Food/src/features/addFriend/component/BottomSheetFilter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food/src/features/addFriend/component/ContactItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Food/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Food/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Food/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/app/assets/translations/en/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/assets/translations/en/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/core/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/core/components/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/core/components/Button/style.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/core/components/Button/style.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/core/components/TopContainer/TopContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/core/components/TopContainer/TopContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/auth/navigator/AuthNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/auth/navigator/AuthNavigator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/auth/navigator/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/auth/navigator/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/auth/screens/OtpScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/auth/screens/OtpScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/guid/screen/HowUseApp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/guid/screen/HowUseApp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/addFriend/assets/translation/friend.json" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/addFriend/assets/translation/friend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/addFriend/component/Item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/addFriend/component/Item.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/addFriend/fixture/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/addFriend/fixture/data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/addFriend/screen/AddFriend.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/addFriend/screen/AddFriend.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/addFriend/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/addFriend/type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Food/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="tsconfig.json" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -40,7 +42,6 @@
     <setting file="file://$PROJECT_DIR$/Food/node_modules/@react-navigation/core/src/NavigationHelpersContext.tsx" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Food/node_modules/@react-navigation/core/src/SceneView.tsx" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Food/node_modules/@react-navigation/core/src/useSyncState.tsx" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Food/node_modules/react-native/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Food/package-lock.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Food/package.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Food/src/app/App.tsx" root0="FORCE_HIGHLIGHTING" />
@@ -133,8 +134,24 @@
       <workItem from="1660585908329" duration="1696000" />
       <workItem from="1660631971269" duration="12016000" />
       <workItem from="1660668808994" duration="3991000" />
-      <workItem from="1660715857387" duration="1849000" />
+      <workItem from="1660715857387" duration="12001000" />
+      <workItem from="1660803509822" duration="3483000" />
+      <workItem from="1660914331591" duration="224000" />
+      <workItem from="1660972855618" duration="4829000" />
     </task>
+    <task id="LOCAL‎۰۰۰۰۱" summary="feat :add addFriend screen">
+      <created>1660718173797</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۱" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۱" />
+      <updated>1660718173797</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۲" summary="feat :add AppNavigator">
+      <created>1660718237548</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۲" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۲" />
+      <updated>1660718237548</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,23 +162,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="text">
-                    <value>
-                      <list>
-                        <option value="share" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat :add addFriend screen" />
+    <MESSAGE value="feat :add AppNavigator" />
+    <MESSAGE value="feat :add BottomSheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat :add BottomSheet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

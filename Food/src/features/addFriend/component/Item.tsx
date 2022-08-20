@@ -1,8 +1,8 @@
-import React, {Dispatch, SetStateAction} from 'react';
-import {FriendInformation} from '../type';
-import Container from '../../../core/components/Container';
-import Text from '../../../core/components/Text';
-import UnStyledButton from '../../../core/components/UnStyledButton';
+import React from 'react';
+import {FriendInformation} from 'features/addFriend/type';
+import Container from 'core/components/Container';
+import Text from 'core/components/Text';
+import UnStyledButton from 'core/components/UnStyledButton';
 import {useTheme} from 'styled-components';
 
 type Props = FriendInformation & {

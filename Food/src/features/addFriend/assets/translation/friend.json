@@ -9,5 +9,11 @@
   "addFriend" : "Add \nFriend",
   "imAlone" : "I'm alone",
   "chooseFriends" : "Choose friends ",
-
+  "sendLink" : "Send Link",
+  "copyLink" : "Copy Link",
+  "byPhoneNumber" : "By phone number",
+  "yourContacts" : "Your contact",
+  "yourFriend" : "Your friend",
+  "sendInvite" : "Send Invite",
+  "sendInvites" : "Send Invites "
 }
