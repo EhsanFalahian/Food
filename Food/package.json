@@ -15,6 +15,7 @@
     "@gorhom/bottom-sheet": "^4",
     "@react-native-clipboard/clipboard": "^1.10.0",
     "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/drawer": "^6.4.3",
     "@react-navigation/native": "^6.0.11",
     "@react-navigation/stack": "^6.2.2",
     "@types/react-native-vector-icons": "^6.4.10",
