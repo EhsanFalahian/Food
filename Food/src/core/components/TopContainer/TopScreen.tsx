@@ -1,9 +1,9 @@
 import React, {FunctionComponent} from 'react';
-import Container from '../Container';
-import palette from '../../styles/palette';
-import UnStyledButton from '../UnStyledButton';
-import Icon from '../Icon';
-import Text from '../Text';
+import Container from 'core/components/Container';
+import palette from 'core/styles/palette';
+import UnStyledButton from 'core/components/UnStyledButton';
+import Icon from 'core/components/Icon';
+import Text from 'core/components/Text';
 
 type TopScreenProps = {
   title: string;
