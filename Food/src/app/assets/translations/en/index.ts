@@ -3,6 +3,7 @@ import auth from 'features/auth/assets/translation/auth.json';
 import guid from 'features/guid/assets/translation/guid.json';
 import friend from 'features/addFriend/assets/translation/friend.json';
 import drawer from 'features/drawer/assets/translate/drawer.json';
+import shop from 'features/shop/assets/translation/shop.json';
 
 export default {
   common,
@@ -10,4 +11,5 @@ export default {
   guid,
   friend,
   drawer,
+  shop,
 };

@@ -4,6 +4,9 @@ import palette from 'core/styles/palette';
 import UnStyledButton from 'core/components/UnStyledButton';
 import Icon from 'core/components/Icon';
 import Text from 'core/components/Text';
+import {useNavigation} from '@react-navigation/native';
+import {DrawerNavigationProp} from '@react-navigation/drawer';
+import {DrawerNavigationParams} from '../../../features/drawer/navigation/DrawerNavigation';
 
 type TopScreenProps = {
   title: string;
@@ -20,6 +23,8 @@ const TopScreen: FunctionComponent<TopScreenProps> = ({
   background,
   title,
 }) => {
+  const {openDrawer} =
+    useNavigation<DrawerNavigationProp<DrawerNavigationParams>>();
   return (
     <Container
       flex={1}
@@ -31,6 +36,7 @@ const TopScreen: FunctionComponent<TopScreenProps> = ({
         px={3}
         py={3}>
         <UnStyledButton
+          onPress={() => openDrawer()}
           borderRadius={5}
           p={2}
           borderWidth={2}

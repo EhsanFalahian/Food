@@ -33,7 +33,7 @@ const UnStyledButton = (prop: UnStyledButtonProps): JSX.Element => {
   ) : (
     <Style.AndroidButton
       style={style}
-      android_ripple={{color: palette.text}}
+      android_ripple={{color: palette.textSecondary}}
       {...rest}
     />
   );

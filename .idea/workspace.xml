@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="feat :add BottomSheet">
-      <change afterPath="$PROJECT_DIR$/Food/src/features/drawer/assets/translate/drawer.json" afterDir="false" />
+    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="refactor : change addressing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Food/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Food/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Food/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Food/src/app/assets/translations/en/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/assets/translations/en/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Food/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/core/components/TopContainer/TopScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/core/components/TopContainer/TopScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/core/components/UnStyledButton/UnStyledButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/core/components/UnStyledButton/UnStyledButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/shop/screen/Shop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/screen/Shop.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -136,7 +135,9 @@
       <workItem from="1660972855618" duration="4829000" />
       <workItem from="1661060443196" duration="17106000" />
       <workItem from="1661187551113" duration="5175000" />
-      <workItem from="1661235789714" duration="11313000" />
+      <workItem from="1661235789714" duration="13273000" />
+      <workItem from="1661320561764" duration="15296000" />
+      <workItem from="1661410002601" duration="2748000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="feat :add addFriend screen">
       <created>1660718173797</created>
@@ -150,7 +151,31 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۲" />
       <updated>1660718237548</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎۰۰۰۰۳" summary="feat :add DraweNavigation">
+      <created>1661256072164</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۳" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۳" />
+      <updated>1661256072164</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۴" summary="refactor : change Type">
+      <created>1661256299359</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۴" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۴" />
+      <updated>1661256299359</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۵" summary="feat : Add TopScreen">
+      <created>1661323411422</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۵" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۵" />
+      <updated>1661323411422</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۶" summary="refactor : change addressing">
+      <created>1661325306900</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۶" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۶" />
+      <updated>1661325306900</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +196,11 @@
     <MESSAGE value="feat :add addFriend screen" />
     <MESSAGE value="feat :add AppNavigator" />
     <MESSAGE value="feat :add BottomSheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat :add BottomSheet" />
+    <MESSAGE value="feat :add DraweNavigation" />
+    <MESSAGE value="refactor : change Type" />
+    <MESSAGE value="feat : Add TopScreen" />
+    <MESSAGE value="refactor : change addressing" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor : change addressing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
