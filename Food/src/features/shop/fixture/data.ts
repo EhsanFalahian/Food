@@ -24,15 +24,18 @@ export const recommendData: Recommended[] = [
     id: 1,
     name: 'shop:burgerFromChief',
     amount: 3.99,
+    description: 'shop:SpicyChiefBurger',
   },
   {
     id: 2,
     name: 'shop:bigKingSet',
     amount: 8.35,
+    description: 'shop:SpicyChiefBurger',
   },
   {
     id: 3,
     name: 'shop:burgerFromChief',
     amount: 3.99,
+    description: 'shop:SpicyChiefBurger',
   },
 ];

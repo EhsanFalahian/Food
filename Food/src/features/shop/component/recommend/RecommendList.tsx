@@ -7,15 +7,19 @@ import {useTheme} from 'styled-components';
 import {Recommended} from '../../type';
 import UnStyledButton from '../../../../core/components/UnStyledButton';
 
-const RecommendList: React.FC = () => {
+type Props = {
+  onPressed: (id: number) => void;
+};
+
+const RecommendList: React.FC<Props> = ({onPressed}) => {
   const {palette} = useTheme();
   const renderItem = useCallback(({item}: {item: Recommended}) => {
     return (
       <Container borderRadius={24} overflow={'hidden'} mx={2}>
         <UnStyledButton
+          onPress={() => onPressed(item.id)}
           backgroundColor={palette.white}
           width={164}
-          // borderRadius={24}
           height={220}
           alignItems={'center'}>
           <Container alignItems={'center'}>

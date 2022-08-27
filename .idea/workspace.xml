@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="refactor : change addressing">
+    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="feat :Add ShopScreen">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at________Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_۲۰_۰۸_۲۰۲۲_۰۲_۳۶_بعدازظهر_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Food/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/app/assets/translations/en/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/assets/translations/en/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/core/components/TopContainer/TopScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/core/components/TopContainer/TopScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/core/components/UnStyledButton/UnStyledButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/core/components/UnStyledButton/UnStyledButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/shop/assets/translation/shop.json" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/assets/translation/shop.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/shop/component/recommend/RecommendList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/component/recommend/RecommendList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/shop/fixture/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/fixture/data.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Food/src/features/shop/screen/Shop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/screen/Shop.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/shop/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/type.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -137,7 +140,9 @@
       <workItem from="1661187551113" duration="5175000" />
       <workItem from="1661235789714" duration="13273000" />
       <workItem from="1661320561764" duration="15296000" />
-      <workItem from="1661410002601" duration="2748000" />
+      <workItem from="1661410002601" duration="2845000" />
+      <workItem from="1661578925838" duration="5244000" />
+      <workItem from="1661595245835" duration="5661000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="feat :add addFriend screen">
       <created>1660718173797</created>
@@ -175,7 +180,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۶" />
       <updated>1661325306900</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL‎۰۰۰۰۷" summary="feat :Add ShopScreen">
+      <created>1661426405288</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۷" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۷" />
+      <updated>1661426405288</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +211,8 @@
     <MESSAGE value="refactor : change Type" />
     <MESSAGE value="feat : Add TopScreen" />
     <MESSAGE value="refactor : change addressing" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor : change addressing" />
+    <MESSAGE value="feat :Add ShopScreen" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat :Add ShopScreen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

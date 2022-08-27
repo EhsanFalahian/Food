@@ -6,4 +6,5 @@ export type Recommended = {
   id: number;
   name: string;
   amount: number;
+  description: string;
 };
