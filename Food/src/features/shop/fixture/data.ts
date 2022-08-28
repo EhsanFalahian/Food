@@ -25,17 +25,20 @@ export const recommendData: Recommended[] = [
     name: 'shop:burgerFromChief',
     amount: 3.99,
     description: 'shop:SpicyChiefBurger',
+    qty: 0,
   },
   {
     id: 2,
     name: 'shop:bigKingSet',
     amount: 8.35,
     description: 'shop:SpicyChiefBurger',
+    qty: 0,
   },
   {
     id: 3,
     name: 'shop:burgerFromChief',
     amount: 3.99,
     description: 'shop:SpicyChiefBurger',
+    qty: 0,
   },
 ];

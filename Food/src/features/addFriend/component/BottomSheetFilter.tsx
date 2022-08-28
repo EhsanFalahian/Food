@@ -36,7 +36,7 @@ const BottomSheetFilter: FunctionComponent<Props> = props => {
   const snapPoint = useMemo(() => ['25%', '80%'], []);
 
   const renderBackdrop = useCallback(
-    props => (
+    (props: any) => (
       <BottomSheetBackdrop
         {...props}
         disappearsOnIndex={-1}

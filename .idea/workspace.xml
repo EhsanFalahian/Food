@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="feat :Add ShopScreen">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at________Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_۲۰_۰۸_۲۰۲۲_۰۲_۳۶_بعدازظهر_[Changes]/shelved.patch" beforeDir="false" />
+    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="feat :Add BottomSheet to shop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Food/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/shop/assets/translation/shop.json" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/assets/translation/shop.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/shop/component/recommend/RecommendList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/component/recommend/RecommendList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/addFriend/component/BottomSheetFilter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/addFriend/component/BottomSheetFilter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/shop/component/bottomSheet/BottomSheetFilter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/component/bottomSheet/BottomSheetFilter.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Food/src/features/shop/fixture/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/fixture/data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/shop/screen/Shop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/screen/Shop.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Food/src/features/shop/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/type.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +139,9 @@
       <workItem from="1661320561764" duration="15296000" />
       <workItem from="1661410002601" duration="2845000" />
       <workItem from="1661578925838" duration="5244000" />
-      <workItem from="1661595245835" duration="5661000" />
+      <workItem from="1661595245835" duration="5863000" />
+      <workItem from="1661625853723" duration="1459000" />
+      <workItem from="1661667200146" duration="7370000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="feat :add addFriend screen">
       <created>1660718173797</created>
@@ -186,7 +185,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۷" />
       <updated>1661426405288</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL‎۰۰۰۰۸" summary="feat :Add BottomSheet to shop">
+      <created>1661605949773</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۸" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۸" />
+      <updated>1661605949773</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +217,8 @@
     <MESSAGE value="feat : Add TopScreen" />
     <MESSAGE value="refactor : change addressing" />
     <MESSAGE value="feat :Add ShopScreen" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat :Add ShopScreen" />
+    <MESSAGE value="feat :Add BottomSheet to shop" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat :Add BottomSheet to shop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

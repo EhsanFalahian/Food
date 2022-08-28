@@ -12,6 +12,7 @@ import UnStyledButton from '../../../../core/components/UnStyledButton';
 import Icon from '../../../../core/components/Icon';
 import Input from '../../../../core/components/Input/Input';
 import {useTheme} from 'styled-components';
+import {recommendData} from '../../fixture/data';
 
 type Props = {
   bottomSheetRef: React.RefObject<BottomSheetMethods>;
@@ -23,10 +24,10 @@ const BottomSheetFilter: FunctionComponent<Props> = ({
   item,
 }) => {
   const {palette} = useTheme();
-  const [value, setValue] = useState<number>(1);
+  const [value, setValue] = useState<Recommended[]>(recommendData);
   const snapPoint = useMemo(() => ['25%', '85%'], []);
   const renderBackdrop = useCallback(
-    props => (
+    (props: any) => (
       <BottomSheetBackdrop
         {...props}
         appearsOnIndex={2}
@@ -36,14 +37,24 @@ const BottomSheetFilter: FunctionComponent<Props> = ({
     [],
   );
 
-  const handleMinus = useCallback(() => {
-    {
-      value > 0 && setValue(prev => (prev = prev - 1));
-    }
-  }, [value, setValue]);
-  const handlePluse = useCallback(() => {
-    setValue(prev => (prev = prev + 1));
-  }, [value, setValue]);
+  const handleMinus = useCallback(
+    (id: number, newQty: number) => {
+      const newData = value.map(cl =>
+        cl.id === id ? {...cl, qty: newQty} : cl,
+      );
+      setValue(newData);
+    },
+    [value, setValue],
+  );
+  const handlePlus = useCallback(
+    (id: number, newQty: number) => {
+      const newData = value.map(cl =>
+        cl.id === id ? {...cl, qty: newQty} : cl,
+      );
+      setValue(newData);
+    },
+    [value],
+  );
 
   return (
     <BottomSheet
@@ -73,7 +84,7 @@ const BottomSheetFilter: FunctionComponent<Props> = ({
           alignItems={'center'}
           justifyContent={'space-between'}>
           <UnStyledButton
-            onPress={handleMinus}
+            onPress={() => item.qty > 0 && handleMinus(item?.id, item.qty--)}
             backgroundColor={palette.background}
             py={2}
             px={2}
@@ -86,10 +97,10 @@ const BottomSheetFilter: FunctionComponent<Props> = ({
             py={2}
             px={4}
             alignItems={'center'}
-            value={value.toString()}
+            value={item?.qty.toString()}
           />
           <UnStyledButton
-            onPress={handlePluse}
+            onPress={() => handlePlus(item?.id, item.qty++)}
             backgroundColor={palette.border}
             py={2}
             px={2}

@@ -7,4 +7,5 @@ export type Recommended = {
   name: string;
   amount: number;
   description: string;
+  qty: number;
 };
