@@ -1,4 +1,4 @@
-import React, {useCallback, useRef, useState} from 'react';
+import React, {useCallback, useEffect, useRef, useState} from 'react';
 import Container from 'core/components/Container';
 import Text from 'core/components/Text';
 import TopScreen from 'core/components/TopContainer/TopScreen';
@@ -11,6 +11,8 @@ import {ScrollView} from 'react-native';
 import BottomSheetFilter from '../component/bottomSheet/BottomSheetFilter';
 import BottomSheet from '@gorhom/bottom-sheet';
 import {recommendData} from '../fixture/data';
+
+import UnStyledButton from '../../../core/components/UnStyledButton';
 
 const Shop = (): JSX.Element => {
   const {palette} = useTheme();
@@ -26,6 +28,7 @@ const Shop = (): JSX.Element => {
   }, []);
 
   const bottomSheetRef = useRef<BottomSheet>(null);
+
   return (
     <>
       <TopScreen
@@ -73,10 +76,44 @@ const Shop = (): JSX.Element => {
             <RecommendList onPressed={pressedHandler} />
           </Container>
         </ScrollView>
-        {/*<BottomSheetFilter*/}
-        {/*  bottomSheetRef={bottomSheetRef}*/}
-        {/*  item={recommendData.filter(item => item.id === pressed)[0]}*/}
-        {/*/>*/}
+        <Container
+          justifyContent={'center'}
+          borderRadius={8}
+          width={'100%'}
+          height={100}
+          backgroundColor={palette.white}>
+          <Container
+            px={2}
+            flexDirection={'row'}
+            alignItems={'center'}
+            justifyContent={'space-between'}>
+            <Container flexDirection={'row'}>
+              <Container
+                width={50}
+                height={50}
+                borderRadius={40}
+                backgroundColor={palette.background}
+              />
+              <Container pl={2}>
+                <Text fontWeight={'bold'}>Igor</Text>
+                <Text color={palette.text}>$7.82</Text>
+              </Container>
+            </Container>
+            <UnStyledButton
+              flexDirection={'row'}
+              alignItems={'center'}
+              py={1}
+              px={3}
+              borderWidth={1}
+              borderColor={palette.border}
+              borderRadius={18}>
+              <Text px={2} t>
+                shop:checkOut
+              </Text>
+              <Icon name={'arrow-right'} size={20} color={palette.title} />
+            </UnStyledButton>
+          </Container>
+        </Container>
       </TopScreen>
       <BottomSheetFilter
         bottomSheetRef={bottomSheetRef}

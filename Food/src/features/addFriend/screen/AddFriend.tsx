@@ -11,10 +11,16 @@ import Button from 'core/components/Button';
 import {useTranslation} from 'react-i18next';
 import BottomSheetFilter from 'features/addFriend/component/BottomSheetFilter';
 import BottomSheet from '@gorhom/bottom-sheet';
+import {useNavigation} from '@react-navigation/native';
+import {NativeStackNavigationProp} from 'react-native-screens/native-stack';
+import {AppNavigatorParams} from '../../../app/navigator/AppNavigator';
+import {AppRoutes} from '../../../app/navigator/routes';
 
 const AddFriend = (): JSX.Element => {
   const [selected, setSelected] = useState<number[]>([]);
   const {palette} = useTheme();
+  const {navigate} =
+    useNavigation<NativeStackNavigationProp<AppNavigatorParams>>();
 
   const bottomSheetRef = useRef<BottomSheet>(null);
   const {t} = useTranslation('friend');
@@ -83,6 +89,7 @@ const AddFriend = (): JSX.Element => {
           </Container>
         </Container>
         <Button
+          onPress={() => navigate(AppRoutes.DRAWER)}
           title={
             selected.length === 0
               ? 'friend:imAlone'

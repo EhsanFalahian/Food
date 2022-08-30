@@ -51,7 +51,7 @@ const TopContainer: FunctionComponent<Props> = ({
           </Text>
         )}
       </Container>
-      <Container flex={1} pt={10} px={16}>
+      <Container flex={1} pt={10}>
         {children}
       </Container>
     </Container>

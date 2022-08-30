@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="feat :Add BottomSheet to shop">
+    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="refactor : ChangeStepper">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Food/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/addFriend/component/BottomSheetFilter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/addFriend/component/BottomSheetFilter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/app/assets/translations/en/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/assets/translations/en/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/app/navigator/AppNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/navigator/AppNavigator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/app/navigator/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/navigator/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/core/components/Card/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/core/components/Card/Card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/core/components/Card/style.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/core/components/Card/style.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/core/components/TopContainer/TopContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/core/components/TopContainer/TopContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/addFriend/screen/AddFriend.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/addFriend/screen/AddFriend.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/shop/assets/translation/shop.json" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/assets/translation/shop.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Food/src/features/shop/component/bottomSheet/BottomSheetFilter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/component/bottomSheet/BottomSheetFilter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/shop/fixture/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/fixture/data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/shop/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/shop/component/recommend/RecommendList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/component/recommend/RecommendList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/shop/screen/Shop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/screen/Shop.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +50,23 @@
     <setting file="file://$PROJECT_DIR$/Food/src/app/assets/translations/en/common.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Food/src/app/assets/translations/en/index.ts" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Food/src/app/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/core/components/Card/style.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Food/src/core/components/TopContainer/TopContainer.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/core/components/UnStyledButton/UnStyledButton.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Food/src/core/config/i18n.ts" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Food/src/core/styles/palette.ts" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Food/src/core/styles/theme/defaultTheme.ts" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Food/src/core/types/decleration/style.d.ts" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Food/src/features/auth/navigator/AuthNavigator.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Food/src/features/auth/screens/onboarding/Onboarding.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/features/cart/component/CartItem.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/features/cart/component/OrderItem.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/features/cart/fixture/data.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/features/cart/screens/Cart.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/features/cart/type.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/features/guid/component/useOne/Item.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/features/guid/component/useOne/UseOne.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Food/src/features/guid/component/useThree/Item.tsx" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -141,7 +158,9 @@
       <workItem from="1661578925838" duration="5244000" />
       <workItem from="1661595245835" duration="5863000" />
       <workItem from="1661625853723" duration="1459000" />
-      <workItem from="1661667200146" duration="7370000" />
+      <workItem from="1661667200146" duration="9721000" />
+      <workItem from="1661751527092" duration="6422000" />
+      <workItem from="1661840069281" duration="11426000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="feat :add addFriend screen">
       <created>1660718173797</created>
@@ -191,7 +210,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۸" />
       <updated>1661605949773</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL‎۰۰۰۰۹" summary="refactor : ChangeStepper">
+      <created>1661684747929</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۹" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۹" />
+      <updated>1661684747929</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +243,8 @@
     <MESSAGE value="refactor : change addressing" />
     <MESSAGE value="feat :Add ShopScreen" />
     <MESSAGE value="feat :Add BottomSheet to shop" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat :Add BottomSheet to shop" />
+    <MESSAGE value="refactor : ChangeStepper" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor : ChangeStepper" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

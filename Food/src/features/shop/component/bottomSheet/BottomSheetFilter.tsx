@@ -13,6 +13,7 @@ import Icon from '../../../../core/components/Icon';
 import Input from '../../../../core/components/Input/Input';
 import {useTheme} from 'styled-components';
 import {recommendData} from '../../fixture/data';
+import Button from '../../../../core/components/Button';
 
 type Props = {
   bottomSheetRef: React.RefObject<BottomSheetMethods>;
@@ -119,6 +120,7 @@ const BottomSheetFilter: FunctionComponent<Props> = ({
           </Text>
         </Container>
       </BottomSheetScrollView>
+      <Button title={'shop:addToCart'} />
     </BottomSheet>
   );
 };

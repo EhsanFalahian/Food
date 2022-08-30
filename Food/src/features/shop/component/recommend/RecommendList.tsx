@@ -15,7 +15,7 @@ const RecommendList: React.FC<Props> = ({onPressed}) => {
   const {palette} = useTheme();
   const renderItem = useCallback(({item}: {item: Recommended}) => {
     return (
-      <Container borderRadius={24} overflow={'hidden'} mx={2}>
+      <Container borderRadius={24} overflow={'hidden'} mx={2} flex={1}>
         <UnStyledButton
           onPress={() => onPressed(item.id)}
           backgroundColor={palette.white}
