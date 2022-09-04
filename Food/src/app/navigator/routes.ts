@@ -3,4 +3,5 @@ export enum AppRoutes {
   HOWUSE = 'howUse',
   ADDFRIEND = 'addfriend',
   DRAWER = 'drawer',
+  CART = 'cart',
 }

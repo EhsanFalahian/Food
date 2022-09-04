@@ -13,9 +13,15 @@ import BottomSheet from '@gorhom/bottom-sheet';
 import {recommendData} from '../fixture/data';
 
 import UnStyledButton from '../../../core/components/UnStyledButton';
+import {useNavigation} from '@react-navigation/native';
+import {NativeStackNavigationProp} from 'react-native-screens/native-stack';
+import {AppNavigatorParams} from '../../../app/navigator/AppNavigator';
+import {AppRoutes} from '../../../app/navigator/routes';
 
 const Shop = (): JSX.Element => {
   const {palette} = useTheme();
+  const {navigate} =
+    useNavigation<NativeStackNavigationProp<AppNavigatorParams>>();
   const [selectItem, setSelectItem] = useState<number>();
   const [pressed, setPressed] = useState<number>();
   const selectHandler = useCallback((id: number) => {
@@ -100,6 +106,7 @@ const Shop = (): JSX.Element => {
               </Container>
             </Container>
             <UnStyledButton
+              onPress={() => navigate(AppRoutes.CART)}
               flexDirection={'row'}
               alignItems={'center'}
               py={1}

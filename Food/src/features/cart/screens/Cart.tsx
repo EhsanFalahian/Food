@@ -10,8 +10,14 @@ import Card from '../../../core/components/Card';
 import CartItem from '../component/CartItem';
 import {ScrollView} from 'react-native';
 import Icon from '../../../core/components/Icon';
+import {useNavigation} from '@react-navigation/native';
+import {NativeStackNavigationProp} from 'react-native-screens/native-stack';
+import {CartNavigatorParam} from '../navigator/CartNavigator';
+import {cartRoute} from '../navigator/route';
 const Cart = (): JSX.Element => {
   const {palette} = useTheme();
+  const {navigate} =
+    useNavigation<NativeStackNavigationProp<CartNavigatorParam>>();
   return (
     <TopContainer
       isGoBack={true}
@@ -78,6 +84,7 @@ const Cart = (): JSX.Element => {
           </Text>
         </Container>
         <UnStyledButton
+          onPress={() => navigate(cartRoute.CHECKOUT)}
           backgroundColor={palette.title}
           flexDirection={'row'}
           alignItems={'center'}

@@ -25,7 +25,10 @@ const TopContainer: FunctionComponent<Props> = ({
   const {goBack} = useNavigation();
 
   return (
-    <Container flex={1} backgroundColor={background ? background : 'white'}>
+    <Container
+      flex={1}
+      backgroundColor={background ? background : 'white'}
+      px={16}>
       <Container flexDirection={'row'} alignItems={'center'} px={3} py={3}>
         {isGoBack && (
           <UnStyledButton
