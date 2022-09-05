@@ -4,5 +4,18 @@
   "addMore" : "Add More",
   "atMyExpense" : "At my expense",
   "next" : "Next",
-  "ready" : "Ready"
+  "ready" : "Ready",
+  "yourFriendsWill" : "Your friends will also receive \na notification. Wait for \nthe courier's call.",
+  "orderIsProcessed" : "Order is processed!",
+  "wait" : "Wait",
+  "notAllFriendsAccept" : "Not all friends accept the order. If you \ncontinue to checkout, their orders will be deleted. ",
+  "checkOut" : "Checkout",
+  "myExpense" : "My expense",
+  "accept" : "Accept",
+  "waiting" : "Waiting for...",
+  "paymentInfo": "Payment info",
+  "shippingAddress" : "Shipping address",
+  "add" : "Add",
+  "payingMethod" : "Paying method",
+  "totalPrice" : "Total price"
 }

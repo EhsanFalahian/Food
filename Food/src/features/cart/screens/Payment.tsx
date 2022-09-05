@@ -8,11 +8,14 @@ import {addressData, payingData} from '../fixture/data';
 import AddressItem from 'features/cart/component/AddressItem';
 import PaymentItem from 'features/cart/component/PaymentItem';
 import Icon from '../../../core/components/Icon';
+import Modal from '../../../core/components/Modal';
+import Button from '../../../core/components/Button';
 
 const Payment = (): JSX.Element => {
   const {palette} = useTheme();
   const [addressSelect, setAddressSelect] = useState<number>(1);
   const [paySelect, setPaySelect] = useState<number>(1);
+  const [visible, setVisible] = useState<boolean>(false);
 
   return (
     <TopContainer
@@ -81,6 +84,7 @@ const Payment = (): JSX.Element => {
           </Text>
         </Container>
         <UnStyledButton
+          onPress={() => setVisible(true)}
           backgroundColor={palette.title}
           flexDirection={'row'}
           alignItems={'center'}
@@ -93,6 +97,15 @@ const Payment = (): JSX.Element => {
           <Icon name={'arrow-right'} size={20} color={palette.white} />
         </UnStyledButton>
       </Container>
+      <Modal
+        visible={visible}
+        onClose={setVisible}
+        title={'cart:orderIsProcessed'}>
+        <Text textAlign={'center'} color={palette.text} t>
+          cart:yourFriendsWill
+        </Text>
+        <Button title={'cart:wait'} width={250} />
+      </Modal>
     </TopContainer>
   );
 };

@@ -14,6 +14,7 @@ import {useNavigation} from '@react-navigation/native';
 import {NativeStackNavigationProp} from 'react-native-screens/native-stack';
 import {CartNavigatorParam} from '../navigator/CartNavigator';
 import {cartRoute} from '../navigator/route';
+
 const Cart = (): JSX.Element => {
   const {palette} = useTheme();
   const {navigate} =

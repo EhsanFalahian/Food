@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="feat: Add RadioButton">
+    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="feat: Add cart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Food/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Food/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Food/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/app/navigator/AppNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/navigator/AppNavigator.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/app/navigator/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/navigator/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/core/components/TopContainer/TopContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/core/components/TopContainer/TopContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/fixture/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/fixture/data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/assets/translations/cart.json" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/assets/translations/cart.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Food/src/features/cart/screens/Cart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/screens/Cart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/type.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/shop/screen/Shop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/shop/screen/Shop.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Food/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/screens/Payment.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/screens/Payment.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -160,7 +153,8 @@
       <workItem from="1661667200146" duration="9721000" />
       <workItem from="1661751527092" duration="6422000" />
       <workItem from="1661840069281" duration="11426000" />
-      <workItem from="1662313912888" duration="2331000" />
+      <workItem from="1662313912888" duration="3032000" />
+      <workItem from="1662356183521" duration="5995000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="feat :add addFriend screen">
       <created>1660718173797</created>
@@ -216,7 +210,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۹" />
       <updated>1661684747929</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL‎۰۰۰۱۰" summary="feat: Add cart">
+      <created>1662317004552</created>
+      <option name="number" value="LOCAL‎۰۰۰۱۰" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۱۰" />
+      <updated>1662317004552</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +244,8 @@
     <MESSAGE value="feat :Add ShopScreen" />
     <MESSAGE value="feat :Add BottomSheet to shop" />
     <MESSAGE value="refactor : ChangeStepper" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor : ChangeStepper" />
+    <MESSAGE value="feat: Add cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add cart" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
