@@ -1,7 +1,7 @@
 import React from 'react';
 import {MyOrder} from '../type';
-import Container from '../../../core/components/Container';
-import Text from '../../../core/components/Text';
+import Container from 'core/components/Container';
+import Text from 'core/components/Text';
 import {useTheme} from 'styled-components';
 
 type Props = MyOrder;

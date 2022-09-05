@@ -1,11 +1,11 @@
 import React, {useMemo} from 'react';
 import {CartItems} from '../type';
-import Card from '../../../core/components/Card';
-import Container from '../../../core/components/Container';
-import Text from '../../../core/components/Text';
-import UnStyledButton from '../../../core/components/UnStyledButton';
+import Card from 'core/components/Card';
+import Container from 'core/components/Container';
+import Text from 'core/components/Text';
+import UnStyledButton from 'core/components/UnStyledButton';
 import {useTheme} from 'styled-components';
-import OrderItem from './OrderItem';
+import OrderItem from 'features/cart/component/OrderItem';
 import DashedLine from 'react-native-dashed-line';
 
 type Props = CartItems;

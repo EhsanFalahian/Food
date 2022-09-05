@@ -1,11 +1,11 @@
 import React, {FunctionComponent, SetStateAction} from 'react';
 import {Modal as ModalComponent, ModalProps} from 'react-native';
-import UnStyledButton from '../UnStyledButton';
-import palette from '../../styles/palette';
-import {convertHexToRGBA} from '../../styles/color';
-import Container from '../Container';
-import Icon from '../Icon';
-import Text from '../Text';
+import UnStyledButton from 'core/components/UnStyledButton';
+import palette from 'core/styles/palette';
+import {convertHexToRGBA} from 'core/styles/color';
+import Container from 'core/components/Container';
+import Icon from 'core/components/Icon';
+import Text from 'core/components/Text';
 
 type Props = ModalProps & {
   title?: string;

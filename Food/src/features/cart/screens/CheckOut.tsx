@@ -10,8 +10,8 @@ import UnStyledButton from 'core/components/UnStyledButton';
 import Icon from 'core/components/Icon';
 import {useNavigation} from '@react-navigation/native';
 import {NativeStackNavigationProp} from 'react-native-screens/native-stack';
-import {CartNavigatorParam} from '../navigator/CartNavigator';
-import {cartRoute} from '../navigator/route';
+import {CartNavigatorParam} from 'features/cart/navigator/CartNavigator';
+import {cartRoute} from 'features/cart/navigator/route';
 
 const CheckOut = (): JSX.Element => {
   const {navigate} =

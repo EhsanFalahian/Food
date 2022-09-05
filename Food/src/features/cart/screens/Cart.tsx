@@ -1,19 +1,19 @@
 import React from 'react';
-import TopContainer from '../../../core/components/TopContainer';
-import Container from '../../../core/components/Container';
-import Text from '../../../core/components/Text';
+import TopContainer from 'core/components/TopContainer';
+import Container from 'core/components/Container';
+import Text from 'core/components/Text';
 import {useTheme} from 'styled-components';
-import UnStyledButton from '../../../core/components/UnStyledButton';
+import UnStyledButton from 'core/components/UnStyledButton';
 import {cartData, myOrder} from '../fixture/data';
-import OrderItem from '../component/OrderItem';
-import Card from '../../../core/components/Card';
-import CartItem from '../component/CartItem';
+import OrderItem from 'features/cart/component/OrderItem';
+import Card from 'core/components/Card';
+import CartItem from 'features/cart/component/CartItem';
 import {ScrollView} from 'react-native';
-import Icon from '../../../core/components/Icon';
+import Icon from 'core/components/Icon';
 import {useNavigation} from '@react-navigation/native';
 import {NativeStackNavigationProp} from 'react-native-screens/native-stack';
-import {CartNavigatorParam} from '../navigator/CartNavigator';
-import {cartRoute} from '../navigator/route';
+import {CartNavigatorParam} from 'features/cart/navigator/CartNavigator';
+import {cartRoute} from 'features/cart/navigator/route';
 
 const Cart = (): JSX.Element => {
   const {palette} = useTheme();

@@ -7,9 +7,9 @@ import UnStyledButton from 'core/components/UnStyledButton';
 import {addressData, payingData} from '../fixture/data';
 import AddressItem from 'features/cart/component/AddressItem';
 import PaymentItem from 'features/cart/component/PaymentItem';
-import Icon from '../../../core/components/Icon';
-import Modal from '../../../core/components/Modal';
-import Button from '../../../core/components/Button';
+import Icon from 'core/components/Icon';
+import Modal from 'core/components/Modal';
+import Button from 'core/components/Button';
 
 const Payment = (): JSX.Element => {
   const {palette} = useTheme();
