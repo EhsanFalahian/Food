@@ -3,6 +3,7 @@ import {
   CartItems,
   CheckOutType,
   MyOrder,
+  OrderType,
   PayingType,
 } from '../type';
 
@@ -80,5 +81,20 @@ export const payingData: PayingType[] = [
     id: 2,
     title: 'Apple Pay',
     address: '**** **** **** 1867',
+  },
+];
+
+export const orderData: OrderType[] = [
+  {
+    id: 1,
+    code: 15268,
+    total: 18.4,
+    status: 'onWay',
+  },
+  {
+    id: 2,
+    code: 72816,
+    total: 5.2,
+    status: 'creating',
   },
 ];

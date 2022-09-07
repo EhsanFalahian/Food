@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="feat: Add Modal">
+    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="refactor: Change Addressing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Food/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/core/components/Modal/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/core/components/Modal/Modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/component/CartItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/component/CartItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/component/OrderItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/component/OrderItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/screens/Cart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/screens/Cart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/screens/CheckOut.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/screens/CheckOut.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/screens/Payment.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/screens/Payment.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/assets/translations/cart.json" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/assets/translations/cart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/fixture/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/fixture/data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/type.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -157,7 +154,8 @@
       <workItem from="1661751527092" duration="6422000" />
       <workItem from="1661840069281" duration="11426000" />
       <workItem from="1662313912888" duration="3032000" />
-      <workItem from="1662356183521" duration="6415000" />
+      <workItem from="1662356183521" duration="6938000" />
+      <workItem from="1662443962376" duration="6749000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="feat :add addFriend screen">
       <created>1660718173797</created>
@@ -225,7 +223,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۱۱" />
       <updated>1662377277052</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL‎۰۰۰۱۲" summary="refactor: Change Addressing">
+      <created>1662377673702</created>
+      <option name="number" value="LOCAL‎۰۰۰۱۲" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۱۲" />
+      <updated>1662377673702</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +259,8 @@
     <MESSAGE value="refactor : ChangeStepper" />
     <MESSAGE value="feat: Add cart" />
     <MESSAGE value="feat: Add Modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add Modal" />
+    <MESSAGE value="refactor: Change Addressing" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Change Addressing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -264,6 +269,12 @@
           <url>file://$PROJECT_DIR$/Food/src/features/auth/screens/Login.tsx</url>
           <line>18</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Food/src/features/cart/screens/Cart.tsx</url>
+          <line>52</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

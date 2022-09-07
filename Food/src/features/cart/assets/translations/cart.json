@@ -17,5 +17,13 @@
   "shippingAddress" : "Shipping address",
   "add" : "Add",
   "payingMethod" : "Paying method",
-  "totalPrice" : "Total price"
+  "totalPrice" : "Total price",
+  "ordersInProcessing" : "Orders in processing",
+  "order" : "Order #",
+  "courierOnTheWay":"Courier on the way",
+  "creating" : "Creating",
+  "details" : "Details",
+  "map" : "Map",
+  "doYouWantAnything" : "Do you want \nanything else?",
+  "newOrder" : "New order"
 }

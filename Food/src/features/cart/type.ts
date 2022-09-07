@@ -22,3 +22,10 @@ export type PayingType = {
   title: string;
   address: string;
 };
+
+export type OrderType = {
+  id: number;
+  code: number;
+  total: number;
+  status: string;
+};
