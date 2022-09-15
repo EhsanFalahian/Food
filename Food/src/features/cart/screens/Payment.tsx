@@ -10,12 +10,18 @@ import PaymentItem from 'features/cart/component/PaymentItem';
 import Icon from 'core/components/Icon';
 import Modal from 'core/components/Modal';
 import Button from 'core/components/Button';
+import {useNavigation} from '@react-navigation/native';
+import {NativeStackNavigationProp} from 'react-native-screens/native-stack';
+import {CartNavigatorParam} from '../navigator/CartNavigator';
+import {cartRoute} from '../navigator/route';
 
 const Payment = (): JSX.Element => {
   const {palette} = useTheme();
   const [addressSelect, setAddressSelect] = useState<number>(1);
   const [paySelect, setPaySelect] = useState<number>(1);
   const [visible, setVisible] = useState<boolean>(false);
+  const {navigate} =
+    useNavigation<NativeStackNavigationProp<CartNavigatorParam>>();
 
   return (
     <TopContainer
@@ -104,7 +110,14 @@ const Payment = (): JSX.Element => {
         <Text textAlign={'center'} color={palette.text} t>
           cart:yourFriendsWill
         </Text>
-        <Button title={'cart:wait'} width={250} />
+        <Button
+          title={'cart:wait'}
+          width={250}
+          onPress={() => {
+            setVisible(false);
+            navigate(cartRoute.ORDER);
+          }}
+        />
       </Modal>
     </TopContainer>
   );

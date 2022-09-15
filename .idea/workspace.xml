@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="refactor: Change Addressing">
+    <list default="true" id="ecf2e579-307b-4b0e-a9e5-9c63c254fba7" name="Changes" comment="feat: add OrderScreen">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at________Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at________Changes_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at________Changes_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at________Changes_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_۰۴_۰۹_۲۰۲۲_۰۳_۵۴_بعدازظهر_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_۰۴_۰۹_۲۰۲۲_۰۴_۰۱_بعدازظهر_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_۰۴_۰۹_۲۰۲۲_۰۴_۱۵_بعدازظهر_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_۰۴_۰۹_۲۰۲۲_۰۴_۱۵_بعدازظهر_[Changes]1/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Food/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/assets/translations/cart.json" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/assets/translations/cart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/fixture/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/fixture/data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/navigator/CartNavigator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/navigator/CartNavigator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/navigator/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/navigator/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/cart/screens/Payment.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/cart/screens/Payment.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/drawer/component/content/DrawerContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/drawer/component/content/DrawerContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Food/src/features/drawer/component/stack/StackNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Food/src/features/drawer/component/stack/StackNavigation.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +166,12 @@
       <workItem from="1662313912888" duration="3032000" />
       <workItem from="1662356183521" duration="6938000" />
       <workItem from="1662443962376" duration="6749000" />
+      <workItem from="1662529899417" duration="2932000" />
+      <workItem from="1662630190728" duration="594000" />
+      <workItem from="1662728476481" duration="635000" />
+      <workItem from="1663159485936" duration="610000" />
+      <workItem from="1663182872522" duration="595000" />
+      <workItem from="1663221980683" duration="1479000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="feat :add addFriend screen">
       <created>1660718173797</created>
@@ -229,7 +245,13 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۱۲" />
       <updated>1662377673702</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL‎۰۰۰۱۳" summary="feat: add OrderScreen">
+      <created>1662530041371</created>
+      <option name="number" value="LOCAL‎۰۰۰۱۳" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۱۳" />
+      <updated>1662530041371</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +282,8 @@
     <MESSAGE value="feat: Add cart" />
     <MESSAGE value="feat: Add Modal" />
     <MESSAGE value="refactor: Change Addressing" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: Change Addressing" />
+    <MESSAGE value="feat: add OrderScreen" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add OrderScreen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -273,7 +296,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Food/src/features/cart/screens/Cart.tsx</url>
           <line>52</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
